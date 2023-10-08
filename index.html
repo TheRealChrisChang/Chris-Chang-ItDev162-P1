@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex API</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <main>
+        <div>
+            <h1 id="titlePage">PokeDex Finder</h1>
+            <h2 id="instructions">Hello, you can enter a pokemon in the textbox below and 
+                <br>click the search icon to the right and look up a pokemon. 
+                <br>Try typing Charmander, Psyduck, Squirtle, or any of your favorite Pokemon.
+                <br><br>Try it out!!</h2>
+        </div>
+        <div class="searchBox">
+            <input id="pokemonName" type="Pokemon name" placeholder="Pokemon name" />
+            <!-- windows key + period key = emojis selector -->
+            <!-- that's how the magnifying glass was found for HTML -->
+            <button id="search">🔎</button>
+        </div>
+        
+        <div class="pokemonBox"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
